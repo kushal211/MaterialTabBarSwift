@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A913C0D91ED9846D002A8314 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A913C0D71ED9846D002A8314 /* LaunchScreen.storyboard */; };
+		A913C0F91ED98579002A8314 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913C0E61ED98579002A8314 /* AppDelegate.swift */; };
+		A913C0FA1ED98579002A8314 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913C0E81ED98579002A8314 /* ViewController.swift */; };
+		A913C0FB1ED98579002A8314 /* UIColorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A913C0ED1ED98579002A8314 /* UIColorHelper.m */; };
+		A913C0FC1ED98579002A8314 /* UIFontHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A913C0EF1ED98579002A8314 /* UIFontHelper.m */; };
+		A913C0FD1ED98579002A8314 /* MDTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A913C0F11ED98579002A8314 /* MDTabBar.m */; };
+		A913C0FE1ED98579002A8314 /* MDTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A913C0F31ED98579002A8314 /* MDTabBarViewController.m */; };
+		A913C0FF1ED98579002A8314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A913C0F61ED98579002A8314 /* Assets.xcassets */; };
+		A913C1001ED98579002A8314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A913C0F81ED98579002A8314 /* Main.storyboard */; };
+		A913C1021ED98797002A8314 /* SampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913C1011ED98797002A8314 /* SampleVC.swift */; };
+		A913C1121ED98928002A8314 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = A913C1051ED98928002A8314 /* LICENSE.txt */; };
+		A913C1131ED98928002A8314 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A913C1061ED98928002A8314 /* Roboto-Black.ttf */; };
+		A913C1141ED98928002A8314 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A913C1071ED98928002A8314 /* Roboto-BlackItalic.ttf */; };
+		A913C1151ED98928002A8314 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A913C1081ED98928002A8314 /* Roboto-Bold.ttf */; };
+		A913C1161ED98928002A8314 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A913C1091ED98928002A8314 /* Roboto-BoldItalic.ttf */; };
+		A913C1171ED98928002A8314 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A913C10A1ED98928002A8314 /* Roboto-Italic.ttf */; };
+		A913C1181ED98928002A8314 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A913C10B1ED98928002A8314 /* Roboto-Light.ttf */; };
+		A913C1191ED98928002A8314 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A913C10C1ED98928002A8314 /* Roboto-LightItalic.ttf */; };
+		A913C11A1ED98928002A8314 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A913C10D1ED98928002A8314 /* Roboto-Medium.ttf */; };
+		A913C11B1ED98928002A8314 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A913C10E1ED98928002A8314 /* Roboto-MediumItalic.ttf */; };
+		A913C11C1ED98928002A8314 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A913C10F1ED98928002A8314 /* Roboto-Regular.ttf */; };
+		A913C11D1ED98928002A8314 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A913C1101ED98928002A8314 /* Roboto-Thin.ttf */; };
+		A913C11E1ED98928002A8314 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A913C1111ED98928002A8314 /* Roboto-ThinItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A913C0CB1ED9846D002A8314 /* MaterialTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaterialTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A913C0D81ED9846D002A8314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A913C0DA1ED9846D002A8314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A913C0E01ED984C5002A8314 /* MaterialTabBar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MaterialTabBar-Bridging-Header.h"; sourceTree = "<group>"; };
+		A913C0E61ED98579002A8314 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A913C0E81ED98579002A8314 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A913C0EB1ED98579002A8314 /* MDConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDConstants.h; sourceTree = "<group>"; };
+		A913C0EC1ED98579002A8314 /* UIColorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColorHelper.h; sourceTree = "<group>"; };
+		A913C0ED1ED98579002A8314 /* UIColorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColorHelper.m; sourceTree = "<group>"; };
+		A913C0EE1ED98579002A8314 /* UIFontHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFontHelper.h; sourceTree = "<group>"; };
+		A913C0EF1ED98579002A8314 /* UIFontHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFontHelper.m; sourceTree = "<group>"; };
+		A913C0F01ED98579002A8314 /* MDTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDTabBar.h; sourceTree = "<group>"; };
+		A913C0F11ED98579002A8314 /* MDTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDTabBar.m; sourceTree = "<group>"; };
+		A913C0F21ED98579002A8314 /* MDTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDTabBarViewController.h; sourceTree = "<group>"; };
+		A913C0F31ED98579002A8314 /* MDTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDTabBarViewController.m; sourceTree = "<group>"; };
+		A913C0F61ED98579002A8314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A913C0F81ED98579002A8314 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A913C1011ED98797002A8314 /* SampleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleVC.swift; sourceTree = "<group>"; };
+		A913C1051ED98928002A8314 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		A913C1061ED98928002A8314 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		A913C1071ED98928002A8314 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		A913C1081ED98928002A8314 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		A913C1091ED98928002A8314 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A913C10A1ED98928002A8314 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		A913C10B1ED98928002A8314 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		A913C10C1ED98928002A8314 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		A913C10D1ED98928002A8314 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		A913C10E1ED98928002A8314 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		A913C10F1ED98928002A8314 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		A913C1101ED98928002A8314 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		A913C1111ED98928002A8314 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A913C0C81ED9846D002A8314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A913C0C21ED9846D002A8314 = {
+			isa = PBXGroup;
+			children = (
+				A913C0CD1ED9846D002A8314 /* MaterialTabBar */,
+				A913C0CC1ED9846D002A8314 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A913C0CC1ED9846D002A8314 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A913C0CB1ED9846D002A8314 /* MaterialTabBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A913C0CD1ED9846D002A8314 /* MaterialTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				A913C0E41ED98579002A8314 /* Classes */,
+				A913C0E91ED98579002A8314 /* MaterialControls */,
+				A913C0F41ED98579002A8314 /* Resources */,
+				A913C0DA1ED9846D002A8314 /* Info.plist */,
+				A913C0E01ED984C5002A8314 /* MaterialTabBar-Bridging-Header.h */,
+			);
+			path = MaterialTabBar;
+			sourceTree = "<group>";
+		};
+		A913C0E41ED98579002A8314 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A913C0E51ED98579002A8314 /* AppDelegate */,
+				A913C0E71ED98579002A8314 /* ViewControllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A913C0E51ED98579002A8314 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A913C0E61ED98579002A8314 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A913C0E71ED98579002A8314 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A913C0E81ED98579002A8314 /* ViewController.swift */,
+				A913C1011ED98797002A8314 /* SampleVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A913C0E91ED98579002A8314 /* MaterialControls */ = {
+			isa = PBXGroup;
+			children = (
+				A913C0EA1ED98579002A8314 /* Helper */,
+				A913C0F01ED98579002A8314 /* MDTabBar.h */,
+				A913C0F11ED98579002A8314 /* MDTabBar.m */,
+				A913C0F21ED98579002A8314 /* MDTabBarViewController.h */,
+				A913C0F31ED98579002A8314 /* MDTabBarViewController.m */,
+			);
+			path = MaterialControls;
+			sourceTree = "<group>";
+		};
+		A913C0EA1ED98579002A8314 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A913C0EB1ED98579002A8314 /* MDConstants.h */,
+				A913C0EC1ED98579002A8314 /* UIColorHelper.h */,
+				A913C0ED1ED98579002A8314 /* UIColorHelper.m */,
+				A913C0EE1ED98579002A8314 /* UIFontHelper.h */,
+				A913C0EF1ED98579002A8314 /* UIFontHelper.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		A913C0F41ED98579002A8314 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A913C1031ED98928002A8314 /* Font */,
+				A913C0F51ED98579002A8314 /* Images */,
+				A913C0F71ED98579002A8314 /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A913C0F51ED98579002A8314 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A913C0F61ED98579002A8314 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A913C0F71ED98579002A8314 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A913C0D71ED9846D002A8314 /* LaunchScreen.storyboard */,
+				A913C0F81ED98579002A8314 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A913C1031ED98928002A8314 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				A913C1041ED98928002A8314 /* Roboto */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		A913C1041ED98928002A8314 /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				A913C1051ED98928002A8314 /* LICENSE.txt */,
+				A913C1061ED98928002A8314 /* Roboto-Black.ttf */,
+				A913C1071ED98928002A8314 /* Roboto-BlackItalic.ttf */,
+				A913C1081ED98928002A8314 /* Roboto-Bold.ttf */,
+				A913C1091ED98928002A8314 /* Roboto-BoldItalic.ttf */,
+				A913C10A1ED98928002A8314 /* Roboto-Italic.ttf */,
+				A913C10B1ED98928002A8314 /* Roboto-Light.ttf */,
+				A913C10C1ED98928002A8314 /* Roboto-LightItalic.ttf */,
+				A913C10D1ED98928002A8314 /* Roboto-Medium.ttf */,
+				A913C10E1ED98928002A8314 /* Roboto-MediumItalic.ttf */,
+				A913C10F1ED98928002A8314 /* Roboto-Regular.ttf */,
+				A913C1101ED98928002A8314 /* Roboto-Thin.ttf */,
+				A913C1111ED98928002A8314 /* Roboto-ThinItalic.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A913C0CA1ED9846D002A8314 /* MaterialTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A913C0DD1ED9846D002A8314 /* Build configuration list for PBXNativeTarget "MaterialTabBar" */;
+			buildPhases = (
+				A913C0C71ED9846D002A8314 /* Sources */,
+				A913C0C81ED9846D002A8314 /* Frameworks */,
+				A913C0C91ED9846D002A8314 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaterialTabBar;
+			productName = MaterialTabBar;
+			productReference = A913C0CB1ED9846D002A8314 /* MaterialTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A913C0C31ED9846D002A8314 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Kushal Panchal";
+				TargetAttributes = {
+					A913C0CA1ED9846D002A8314 = {
+						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = A913C0C61ED9846D002A8314 /* Build configuration list for PBXProject "MaterialTabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A913C0C21ED9846D002A8314;
+			productRefGroup = A913C0CC1ED9846D002A8314 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A913C0CA1ED9846D002A8314 /* MaterialTabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A913C0C91ED9846D002A8314 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A913C1151ED98928002A8314 /* Roboto-Bold.ttf in Resources */,
+				A913C1191ED98928002A8314 /* Roboto-LightItalic.ttf in Resources */,
+				A913C11B1ED98928002A8314 /* Roboto-MediumItalic.ttf in Resources */,
+				A913C1171ED98928002A8314 /* Roboto-Italic.ttf in Resources */,
+				A913C1181ED98928002A8314 /* Roboto-Light.ttf in Resources */,
+				A913C1121ED98928002A8314 /* LICENSE.txt in Resources */,
+				A913C1161ED98928002A8314 /* Roboto-BoldItalic.ttf in Resources */,
+				A913C1141ED98928002A8314 /* Roboto-BlackItalic.ttf in Resources */,
+				A913C11D1ED98928002A8314 /* Roboto-Thin.ttf in Resources */,
+				A913C11C1ED98928002A8314 /* Roboto-Regular.ttf in Resources */,
+				A913C1001ED98579002A8314 /* Main.storyboard in Resources */,
+				A913C11A1ED98928002A8314 /* Roboto-Medium.ttf in Resources */,
+				A913C11E1ED98928002A8314 /* Roboto-ThinItalic.ttf in Resources */,
+				A913C1131ED98928002A8314 /* Roboto-Black.ttf in Resources */,
+				A913C0FF1ED98579002A8314 /* Assets.xcassets in Resources */,
+				A913C0D91ED9846D002A8314 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A913C0C71ED9846D002A8314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A913C0FB1ED98579002A8314 /* UIColorHelper.m in Sources */,
+				A913C0FE1ED98579002A8314 /* MDTabBarViewController.m in Sources */,
+				A913C0FD1ED98579002A8314 /* MDTabBar.m in Sources */,
+				A913C0FA1ED98579002A8314 /* ViewController.swift in Sources */,
+				A913C0FC1ED98579002A8314 /* UIFontHelper.m in Sources */,
+				A913C0F91ED98579002A8314 /* AppDelegate.swift in Sources */,
+				A913C1021ED98797002A8314 /* SampleVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A913C0D71ED9846D002A8314 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A913C0D81ED9846D002A8314 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A913C0DB1ED9846D002A8314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A913C0DC1ED9846D002A8314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A913C0DE1ED9846D002A8314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MaterialTabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.indianic.MaterialTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MaterialTabBar/MaterialTabBar-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A913C0DF1ED9846D002A8314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MaterialTabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.indianic.MaterialTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MaterialTabBar/MaterialTabBar-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A913C0C61ED9846D002A8314 /* Build configuration list for PBXProject "MaterialTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A913C0DB1ED9846D002A8314 /* Debug */,
+				A913C0DC1ED9846D002A8314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A913C0DD1ED9846D002A8314 /* Build configuration list for PBXNativeTarget "MaterialTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A913C0DE1ED9846D002A8314 /* Debug */,
+				A913C0DF1ED9846D002A8314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A913C0C31ED9846D002A8314 /* Project object */;
+}
