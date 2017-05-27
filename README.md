@@ -1,12 +1,36 @@
 # MaterialTabBar
 
-This is a sample demo for a Material TabBar using "Material-Controls-For-iOS" classes in Swift 3.0 
+
+### What is this repository for? ###
+* This is a sample demo for a Material TabBar using "[Material-Controls-For-iOS](https://github.com/fpt-software/Material-Controls-For-iOS)" classes in Swift 3.0 
 
 
-Requirement :
-XCode 8.0 and Above
-Swift 3.0
+### How to use it? ###
+
+* Just download the project and run "MaterialTabBar.xcodeproj" that's it.
+
+
+### Requirement : ###
+
+* XCode 8.0 and Above
+* Swift 3.0
+
+
+### Special Thanks ###
+
+* [FTP Software](https://github.com/fpt-software)
+* You can get complete Material Controls from [here](https://github.com/fpt-software/Material-Controls-For-iOS)
 
 
 
-A special thanks to https://github.com/fpt-software for creating "Material-Controls-For-iOS".
+### Contribution guidelines ###
+
+* Writing tests
+* Code review
+* Other guidelines
+
+
+### Declaration ###
+
+The Ripple effect code has been commented for this demo only. If you want to add same Ripple effect in this demo than you can download the required classes from above mention link add add it in your project.
+
