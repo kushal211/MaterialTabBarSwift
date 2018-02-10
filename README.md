@@ -35,7 +35,4 @@
 * Other guidelines
 
 
-### Declaration ###
-
-The Ripple effect code has been commented for this demo only. If you want to add same Ripple effect in this demo than you can download the required classes from above mention link add add it in your project.
 
